@@ -31,7 +31,7 @@ class Customer:
         top_customer_name = None
         top_amount = 0
 
-        # find the customer who spent the most on this coffee
+       
         for order in Order.all_orders:
             if order.coffee == coffee:
                 amount = order.price

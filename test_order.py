@@ -5,8 +5,8 @@ from order import Order
 
 
 def test_order_creation():
-    customer = Customer("Alice")
-    coffee = Coffee("Espresso")
+    customer = Customer("Sheera")
+    coffee = Coffee("Iatte")
     order = Order(customer, coffee, 5.0)
     assert order.customer == customer
     assert order.coffee == coffee
